@@ -449,7 +449,7 @@ spec:
                 matchLabels:
                   type: subnet
           writeConnectionSecretToRef:
-            namespace: crossplane
+            namespace: crossplane-system
       patches:
         - type: PatchSet
           patchSetName: common-parameters
